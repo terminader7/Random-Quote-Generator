@@ -1,9 +1,10 @@
 import './App.css';
+import { QuoteBox } from './components/QuoteBox';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <h1>First React</h1>
+    <div className="App color-red">
+      <QuoteBox />
     </div>
   );
 }
